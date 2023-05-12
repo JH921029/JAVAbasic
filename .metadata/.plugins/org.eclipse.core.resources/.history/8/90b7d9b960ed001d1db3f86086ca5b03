@@ -1,0 +1,19 @@
+package day16.api.ramda.stream;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MainClass01 {
+	public static void main(String[] args) {
+		
+		List<String> list = new ArrayList<>();
+		
+		
+		list.add("홍길동");
+		list.add("홍길자");
+		list.add("홍길순");
+		list.add("홍길덕");
+		list.add("홍길대");
+	}
+
+}

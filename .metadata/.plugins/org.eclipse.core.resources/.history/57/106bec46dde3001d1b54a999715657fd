@@ -1,0 +1,11 @@
+package day10.static_.basic;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		String[] arr = {"q","w","e","1","r","3","t"};
+		
+		System.out.println(MyArrays.printArray(arr));
+	}
+}

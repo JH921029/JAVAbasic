@@ -1,0 +1,43 @@
+package study02;
+
+import java.util.Scanner;
+
+public class Method {
+
+	static int method01(int a) {
+
+		while(true) {
+
+			if(a==1) {
+				System.out.print(a+" = ");
+				return 1;
+			}
+			System.out.print(a+" X " );
+			return a*(method01(a-1));
+		}		
+	}
+
+
+	static String[] method01(String str) {
+		
+		
+		
+		
+		return null;
+	}
+
+
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		System.out.println(method01(a));
+	
+		
+		String str = sc.nextLine();
+		System.out.println(method01(str));
+		
+
+	}
+}

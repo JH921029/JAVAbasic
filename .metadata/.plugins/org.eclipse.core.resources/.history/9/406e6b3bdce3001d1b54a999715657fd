@@ -1,0 +1,13 @@
+package day10.static_.basic;
+
+public class Calculator {
+
+	/*
+	 * 클래스 설계를 할때, 적절한 곳에 static을 붙이면 좋습니다.
+	 */
+	
+	static int sum(int a, int b) {
+		
+		return a+b;
+	}
+}

@@ -1,0 +1,57 @@
+package quiz02;
+
+
+
+public class Account {
+
+	/* 한 사람의 은행 계좌입니다.
+	 * 
+	 * acountNumber변수 - 식별아이디
+	 * password변수 - 비밀번호
+	 * balance변수 - 잔고
+	 * 
+	 * 생성자
+	 * 3가지를 모두 받아서 초기화하는 생성자
+	 * 
+	 * 메서드
+	 * deposit : void - 잔고에 매개변수를 누적하는 기능
+	 * withDraw : void - 잔고에서 매개변수를 차감하는 기능
+	 * getBalance : int - 잔고를 리턴하는 기능
+	 * 
+	 */
+
+	int accountNumber;
+	int password;
+	int balance;
+	
+	Account(int a, int b, int c){
+		accountNumber = a;
+		password = b;
+		balance = c;
+		System.out.println(a+"   "+b+"   "+c+"    ");
+	}
+	
+	
+	
+	
+	void deposit(int a) { //잔고에 매개변수를 누적
+		
+		balance += a;
+		System.out.println(balance);
+	}
+	
+	void withDraw(int a) { //잔고에서 매개변수 차감
+		
+		balance -= a;
+		
+	}
+	
+	int getBalance() { //잔고를 리턴하는 기능
+		
+		System.out.println(balance);
+		
+		return 0;
+	}
+	
+}
+

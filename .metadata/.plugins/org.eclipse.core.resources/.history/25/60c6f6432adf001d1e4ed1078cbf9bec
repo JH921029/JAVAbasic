@@ -1,0 +1,16 @@
+package quiz02;
+
+public class AccountMain {
+	public static void main(String[] args) {
+		
+		Account ac = new Account("가나다","라마바",35);
+
+		ac.deposit(10);
+		ac.withDraw(5);
+		ac.withDraw(5);
+		
+		int result = ac.getBalance();
+		System.out.println(result);
+	}
+
+}
